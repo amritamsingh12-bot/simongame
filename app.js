@@ -8,6 +8,7 @@ document.addEventListener("keypress",function(){
    if(started==false){
     console.log("game is started");
     started=true;
+      document.querySelector("#instructions").style.display = "none";
     levelup();
    }
 });
@@ -15,6 +16,7 @@ document.addEventListener("touchstart", function(){
    if(started==false){
     console.log("game is started");
     started=true;
+      document.querySelector("#instructions").style.display = "none";
     levelup();
    }
 });
